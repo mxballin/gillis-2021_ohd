@@ -5,7 +5,7 @@ layout: default
 <!-- list of colors provided by https://sashat.me/2017/01/11/list-of-20-simple-distinct-colors/ -->
 <style>
   {% for n in site.data.filters %}
-.{{ n.tag }} { fill: {% cycle '#332288','#88CCEE','#44AA99','#117733','#999933','#DDCC77','#CC6677','#882255','#AA4499','#ffffff'%}; outline:'#000000'}
+.{{ n.tag }} { fill: {% cycle '#332288','#88CCEE','#44AA99','#117733','#999933','#DDCC77','#CC6677','#882255','#AA4499','#ffffff'%};}
 {% endfor %}
 
   .black {
@@ -24,7 +24,7 @@ layout: default
     {%for n in site.data.filters %}
     <div class="col-md-2 col-4 ">
       <svg class="legend" width="100%" height="25px" data-id="{{n.tag}}" style="cursor:pointer;" data-toggle="tooltip" data-placement="left" title="On {{ n.description | escape }}">
-        <circle cx="25" cy="10" r="10"  class="{{n.tag}}"></circle><text x="38" y="15">{{n.tag}}</text>
+        <circle cx="25" cy="10" r="10"  class="{{n.tag}}" style="stroke:black; stroke-width: .25px;"></circle><text x="38" y="15">{{n.tag}}</text>
       </svg>
     </div>
     {%endfor%}
