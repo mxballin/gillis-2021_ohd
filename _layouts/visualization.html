@@ -5,7 +5,7 @@ layout: default
 <!-- list of colors provided by https://sashat.me/2017/01/11/list-of-20-simple-distinct-colors/ -->
 <style>
   {% for n in site.data.filters %}
-.{{ n.tag }} { fill: {% cycle '#332288','#88CCEE','#44AA99','#117733','#999933','#DDCC77','#CC6677','#882255','#AA4499','#ffffff'%};}
+.{{ n.tag }} { fill: {% cycle '#332288','#88CCEE','#44AA99','#117733','#999933','#DDCC77','#CC6677','#882255','#AA4499','#ffffff'%}; outline:'#000000'}
 {% endfor %}
 
   .black {
