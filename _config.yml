@@ -6,23 +6,23 @@
 # URL settings 
 #
 # url is your gh-pages base, following the pattern: username.github.io
-url: https://ubc-library-rbsc.github.io
+url: https://mxballin.github.io
 # baseurl is your github repository's name prefixed with a /
 baseurl: /gillis-2021_ohd
 # repository is the github repository's full url
-repository: https://github.com/ubc-library-rbsc/gillis-2021_ohd
+repository: https://github.com/mxballin/gillis-2021_ohd
 
 
 ##########
 # Site settings
 #
 # title of site appears in banner
-title: I Know We'll Meet Again - Transcripts
+title: 'How Do We Pronounce Our Skin in English'
 # tagline appears in banner
-tagline: Correspondence and the forced dispersal of Japanese Canadians
+tagline: Researching records of adoption and their impact on adoptee identity construction.
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This digital exhibition on Japanese Canadian forced dispersal and internment features materials from the Joan Gillis fonds, housed at the University of British Columbia Library's Rare Books and Special Collections."
+description: "This website is the hub for the thesis work of MLIS/MAS candidate Mya Ballin"
 # Organization branding
 organization-name:
 organization-link:
